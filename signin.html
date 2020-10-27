@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width , initial-scale=1" />
+		<title>Sign Up</title>
+	<link rel="icon" type="image/png" href="Images/Icon.png" />
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+<script src="bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+		<style>
+			body
+{
+	margin: 0;
+	padding: 0;
+	background: url(Images/160M.jpg)no-repeat center center fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	height: 450px;
+	background: rgba(0,0,0,.6);
+}
+.user 
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+.loginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="Password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	height: 40px;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover;
+{
+	background: #efed40;
+	color: #262626;
+}
+.loginBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.up{
+	text-align: right;
+}
+		</style>
+
+	<body>
+		<div class="loginBox">
+			<img src="Images/Icon logo.png" class="user">
+			<h2>Log In Here</h2>
+			<form action="Home.html">
+				<p>Email</p>
+				<input type="text" name="" placeholder="Enter Email">
+				<p>Password</p>
+				<input type="Password" name="" placeholder="••••••">
+				<input type="submit" name="" value="Sign In">
+				<a href="#">Forget Password</a><hr>
+				<a href="signup.html" class="up">Sign Up</a>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="width=device-width , initial-scale=1" />
+<title>Summer Collection</title>
+<link rel="icon" type="image/png" href="Images/Icon.png" />
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+<script src="bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<style>
+
+.pic1:hover{
+	-webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+		}
+		
+	
+	html,body {
+  height:100%;
+    
+}
+
+.first {
+  padding-top:140px;
+  height:78vh;
+  min-height:400px;
+  background-size:cover;
+ background-image:url(Images/Header%203.jpg);
+}
+
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;  
+  -o-transition:padding 0.2s ease-out;         
+  transition:padding 0.2s ease-out;
+
+}
+
+.affix-top {
+  /* navbar style at top */
+  background:transparent;
+  border-color:transparent;
+  padding: 15px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease; 
+  -o-transition:all 0.5s ease;         
+  transition:all 0.5s ease;  
+}
+
+.affix-top .nav>li>a {
+   color:#000;
+}
+
+.affix-top .navbar-collapse {
+   border-color:transparent;
+   box-shadow:none;
+}
+		
+		
+.footer
+  {
+    background-color: #222;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+
+  .bottom-footer
+  {
+    border-top: 1px solid #b2b2b2;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #b2b2b2;
+  }
+  .footer-nav
+  {	padding-bottom:30px;
+  		margin-bottom:20px;
+	   text-align: right;
+   		list-style: none;
+  }
+
+ .footer-nav li
+  {
+    display: inline;
+   
+  }
+  
+  .footer li:not(:first-child):before
+  {
+    content: '|';
+     padding: 0px 10px;
+  }
+  
+ 
+		
+.location{
+	
+	color:white;
+	
+	}
+	
+	.top {
+	
+	background-color:#222;
+	color:white;
+	padding:20px;
+	text-align:center;
+}
+
+.top:hover{  
+	color:white;
+}
+
+.car {
+	
+	background-color:#000;
+	padding:10px;
+	opacity:0.9;
+	bottom:0px; 
+	}
+	
+.car:hover{
+	
+	padding-bottom:80px;
+  	-webkit-transition:all 0.3s linear;
+  	-moz-transition:all 0.3s linear; 
+  	-o-transition:all 0.3s linear;         
+  	transition:all 0.3s linear;  
+	
+	}
+  /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+  background: #000;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #111;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 34px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 10px;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border-left: 4px solid #18d26e;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #eee;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #18d26e;
+  color: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top h4::before,
+#footer .footer-top h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+}
+
+#footer .footer-top h4::before {
+  right: 0;
+  background: #555;
+}
+
+#footer .footer-top h4::after {
+  background: #18d26e;
+  width: 60px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 8px;
+  color: #ddd;
+}
+
+#footer .footer-top .footer-links ul li {
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #eee;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #18d26e;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #18d26e;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background: #13a456;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #ddd;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+  <div class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="400">
+  <div class="container">
+    <div class="navbar-header">
+    
+      <a href="Summer Collection.html" class="navbar-brand" style="font-size:40px;" >Summer Collection</a>
+       <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+        </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="Home.html">Home</a></li>
+        
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Our Collection<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Luxury Collection.html">Luxury Collection</a></li>
+          <li class="divider"></li>
+          
+          <li><a href="winter collection.html">Winter Collection</a></li>
+          <li class="divider"></li>
+          
+          <li><a href="Summer Collection.html">Summer Collection</a></li>
+          <li class="divider"></li>
+          
+          <li><a href="Unstitches collection.html">Unstitched Collection</a></li>
+        </ul>
+        
+        
+         <!--Designer Dropdown-->
+        
+         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Designers Collection<span class="caret"></span></a>
+       
+        <ul class="dropdown-menu">
+          <li><a href="Hassan Sheharyar Yasin (HSY).html">Hassan Sheharyar Yasin (HSY)</a></li>
+          <li class="divider"></li>
+          
+          <li><a href="Deepak Parwani.html">Deepak Parwani</a></li>
+          <li class="divider"></li>
+          
+          <li><a href="Maria B.html">Maria.B</a></li>
+          <li class="divider"></li>
+          
+           <li><a href="Nomi Ansari.html">Nomi Ansari</a></li>
+           <li class="divider"></li>
+          
+           <li><a href="Asim Jofa.html">Asim Jofa</a></li>
+        </ul>
+        
+        	<!--Designer Dropdown-->
+ 
+ 
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+		
+    </div>
+    </div>		
+  </div>
+</div>
+<section class="first">
+  <div class="container"> 
+  </div>
+</section>
+<br /><br />
+
+<br />
+<br />
+
+         
+       <!--Nav Bar-->
+
+       
+       
+       <div class="container">
+       
+       <div style="border:10px solid;border-image:url(Images/border.jpg)20 repeat;"><br />
+
+	<h1 style="text-align:center;">Summer Collection </h1>
+    <center><p><strong>The trendiest prints paired with bold colors
+ BeechTree has it all this Summer</strong></p></center>
+<br />
+</div>
+<br />
+<br />
+</div>
+	
+    <div class="jumbotron">
+     <div class="row">
+     
+      <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/208M.jpg" onmouseover="this.src='Images/Summer collection/209M.jpg'" onmouseout="this.src='Images/Summer collection/208M.jpg'"  class="img-thumbnail"/> 
+   		<div class="carousel-caption car">
+             <p style="font-size:15px;">Brown 1 Pc Printed Cambric Shirt GLW-17-62.<hr /></p><h4>PKR 2,290</h4>
+            </div> </center> <br />
+		
+             </div>
+
+
+
+
+ <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/206M.jpg" onmouseover="this.src='Images/Summer collection/207M.jpg'" onmouseout="this.src='Images/Summer collection/206M.jpg'"  class="img-thumbnail"/>
+   
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Yellow 3 Pc Printed Linen V-09 B<hr /></p><h4>PKR 3,200</h4>
+            </div> </center><br />
+
+       
+</div>
+
+
+    
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/204M.jpg" onmouseover="this.src='Images/Summer collection/205M.jpg'" onmouseout="this.src='Images/Summer collection/204M.jpg'"  class="img-thumbnail"/>
+   
+       <div class="carousel-caption car">
+             <p style="font-size:15px;"> Grey 1 Pc Printed Khaddar Shirt GLW-17-55<hr /></p><h4>PKR 2,690</h4>
+            </div> </center>     <br />
+
+  
+</div>
+	
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/196M.jpg" onmouseover="this.src='Images/Summer collection/197M.jpg'" onmouseout="this.src='Images/Summer collection/196M.jpg'" class="img-thumbnail"/>
+      <div class="carousel-caption car">
+             <p style="font-size:15px;">Orange 3 Pc Printed Linen V-10 A<hr /></p><h4>PKR 2,690</h4>
+            </div> </center>     <br />
+  
+</div>
+ 
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/198M.jpg" onmouseover="this.src='Images/Summer collection/199M.jpg'" onmouseout="this.src='Images/Summer collection/198M.jpg'"  class="img-thumbnail"/>
+   
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Blue 3 Pc Printed Linen V-10 B<hr /></p><h4>PKR 3,200</h4>
+            </div> </center>     <br />
+  
+</div>
+ 
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/201M.jpg" onmouseover="this.src='Images/Summer collection/200M.jpg'" onmouseout="this.src='Images/Summer collection/201M.jpg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Off White 1 Pc Printed Cambric Shirt GLW-17-59<hr /></p><h4>PKR 2,290</h4>
+            </div> </center>     <br />
+  
+</div>
+      
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/202M.jpg" onmouseover="this.src='Images/Summer collection/203.jpg'" onmouseout="this.src='Images/Summer collection/202M.jpg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Black 3 Pc Blended Chiffon Printed BMK-22<hr /></p><h4>PKR 3,500</h4>
+            </div> </center>     <br />
+  
+</div>
+      
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/210M.jpg" onmouseover="this.src='Images/Summer collection/211M.jpg'" onmouseout="this.src='Images/Summer collection/210M.jpg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Light Blue 3 Pc Digital Printed RY-08<hr /></p><h4>PKR 4,000</h4>
+            </div> </center>     <br />
+  
+</div>
+        
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/212M.jpg" onmouseover="this.src='Images/Summer collection/213M.jpg'" onmouseout="this.src='Images/Summer collection/212M.jpg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Aqua 3 Pc Embroidered Chantilly De Lace Dress CT-209<hr /></p><h4>PKR 5,552</h4>
+            </div> </center>     <br />
+  
+</div>
+        
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/230M.jpg" onmouseover="this.src='Images/Summer collection/215M.jpg'" onmouseout="this.src='Images/Summer collection/230M.jpg'"  class="img-thumbnail" />
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Black 3 Pc Embroidered Chantilly De Lace Dress CT-178<hr /></p><h4>PKR 6,057</h4>
+            </div> </center>     <br />
+  
+</div>
+       
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/216M.jpg" onmouseover="this.src='Images/Summer collection/232M.JPG'" onmouseout="this.src='Images/Summer collection/216M.jpg'" class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Green 2 Pc Printed Lawn TL-53 A<hr /></p><h4>PKR 2,120</h4>
+            </div> </center>     <br />
+  
+</div>
+     
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/231M.JPg" onmouseover="this.src='Images/Summer collection/219M.jpg'" onmouseout="this.src='Images/Summer collection/231M.JPg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Green 2 Pc Embroidered Lawn Dress TL-64 A<hr /></p><h4>PKR 3,029</h4>
+            </div> </center>     <br />
+  
+</div>
+        
+        
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/220M.jpg" onmouseover="this.src='Images/Summer collection/221M.jpg'" onmouseout="this.src='Images/Summer collection/220M.jpg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Brown 2 Pc Printed Lawn TL-82 B<hr /></p><h4>PKR 2,120</h4>
+            </div> </center>     <br />
+  
+</div>
+       
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/222M.jpg" onmouseover="this.src='Images/Summer collection/223M.jpg'" onmouseout="this.src='Images/Summer collection/222M.jpg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Blue 2 Pc Printed Lawn TL-88 B<hr /></p><h4>PKR 2,120</h4>
+            </div> </center>     <br />
+  
+</div>
+        
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/224M.jpg" onmouseover="this.src='Images/Summer collection/225M.jpg'" onmouseout="this.src='Images/Summer collection/224M.jpg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Hot Pink 2 Pc Printed Lawn TL-80 A<hr /></p><h4>PKR 2,120</h4>
+            </div> </center>     <br />
+  
+</div>
+       
+
+
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/227M.jpg" onmouseover="this.src='Images/Summer collection/226M.jpg'" onmouseout="this.src='Images/Summer collection/227M.jpg'" class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Sea Green 2 Pc Printed Lawn TL-62 C<hr /></p><h4>PKR 2,120</h4>
+            </div> </center>     <br />
+  
+</div>
+        
+        
+          <div class="col-md-4 col-lg-4"> 
+   <center><img src="Images/Summer collection/228M.jpg" onmouseover="this.src='Images/Summer collection/229M.jpg'" onmouseout="this.src='Images/Summer collection/228M.jpg'"  class="img-thumbnail"/>
+   <div class="carousel-caption car">
+             <p style="font-size:15px;">Beige 3 Pc Embroidered Trencia Satin Silk Dress SS-134<hr /></p><h4>PKR 5,552</h4>
+            </div> </center>     <br />
+  
+</div>
+            
+</div>
+</div>
+</div><br />
+<br />
+
+
+
+
+
+
+
+
+
+
+
+    	<center>	<a href="Summer Collection.html" class="top"><img src="Images/up-black-arrow-hi.png" width="20px;"
+        height="20px" />  To the top</a></center>  <br />
+<br />
+
+
+<!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Madam Boutiques</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+
+            <ul>
+                   <li><i class="ion-ios-arrow-right"></i> <a href="Home.html">Home</a></li>
+                   <li><i class="ion-ios-arrow-right"></i><a href="Luxury Collection.html">Luxury Collection</a>
+                   <li><i class="ion-ios-arrow-right"></i><a href="winter collection.html">Winter Collection</a></li>
+                   <li><i class="ion-ios-arrow-right"></i><a href="Summer Collection.html">Summer Collection</a></li>
+                   <li><i class="ion-ios-arrow-right"></i><a href="Unstitches collection.html">Unstitched Collection</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              North Nazimabad  , Karachi <br>
+              Pakistan
+              <br>
+              <strong>Phone:</strong> +92-315-2813132<br>
+              <strong>Email:</strong> info@boutiques.com<br>
+            </p>
+
+            <div>
+             
+              <a href="https://www.facebook.com/MadamBoutiqueOfficial/"><img src="Images/FB.png" class="pic1" width="30px"
+              height="30px"/> &nbsp&nbsp</a>
+               
+              <a href="https://www.instagram.com/madam.boutique/?hl=en"><img src="Images/intsa.png" class="pic1" width="30px"
+              height="30px"/> &nbsp&nbsp</a> &nbsp
+              
+              <a href="https://twitter.com/"><img src="Images/twitter.png" class="pic1" width="30px"
+              height="30px" /> &nbsp&nbsp</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Madam Boutiques</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+        Designed by<b> Mubeen</b>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  
+  <!--Footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
